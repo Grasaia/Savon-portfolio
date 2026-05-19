@@ -1,0 +1,40 @@
+.hero-section {
+  min-height: 100vh;
+  padding-top: 80px; /* offset for navbar */
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-subtitle {
+  color: var(--accent-primary);
+  font-family: monospace;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.hero-description {
+  margin-top: 2rem;
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  max-width: 600px;
+}
+
+.social-icon {
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: var(--accent-primary);
+  transform: translateY(-2px);
+}
