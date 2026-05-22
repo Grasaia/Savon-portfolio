@@ -25,19 +25,19 @@ const Projects = () => {
       title: 'Charity Water Landing Page',
       description: 'A responsive and visually engaging landing page designed to drive donations and spread awareness for clean water initiatives.',
       tech: ['HTML5', 'CSS3', 'JavaScript'],
-      demoLink: '#',
+      demoLink: 'https://mhjgeew5no.wpdns.site/',
       githubLink: '#',
-      image: 'https://images.unsplash.com/photo-1538332576228-eb5b4c4de8f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/charity-water.png',
       impact: 'Built a highly accessible, mobile-first design with smooth micro-animations to enhance user engagement.'
     },
     {
-      title: 'Cyber 448 Open Source App',
-      description: 'An open-source cybersecurity application developed for the Cyber 448 curriculum, focusing on vulnerability assessment and reporting.',
-      tech: ['Python', 'Security Tools', 'Open Source'],
-      demoLink: '#',
+      title: 'Personal Business Web Project',
+      description: 'A premium web development agency website crafting high-performance digital experiences for businesses ready to scale.',
+      tech: ['Web Development', 'Design', 'Strategy'],
+      demoLink: 'https://www.grasaiastudios.com/',
       githubLink: '#',
-      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      impact: 'Contributed modular code to an open-source repository, facilitating easier feature additions by other developers.'
+      image: '/grasaia-studios.png',
+      impact: 'Designed and built a custom premium portfolio to attract new clients and showcase technical expertise.'
     }
   ];
 
