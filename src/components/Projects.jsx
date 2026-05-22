@@ -9,7 +9,7 @@ const Projects = () => {
       tech: ['React', 'Node.js', 'AI Integration'],
       demoLink: 'https://www.youtube.com/watch?v=t2oHcBE8UQg&t=2s',
       githubLink: '#',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/scarlet-med-tech.png',
       impact: 'Improved potential patient intake processing time by 30% through automated AI assistance.'
     },
     {
