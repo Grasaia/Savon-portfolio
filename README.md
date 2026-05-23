@@ -2,15 +2,15 @@
 
 A responsive, high-impact portfolio website designed to showcase my software engineering projects, technical skills, and professional readiness to prospective employers and recruiters.
 
-## 📸 Screenshots
+##  Screenshots
 
 ![Portfolio Homepage](./public/savon-portfolio.png)
 
-## 🚀 Live Demo
+##  Live Demo
 
 [View Live Portfolio Here](https://savon-portfolio-re.vercel.app/)
 
-## ✨ Features
+##  Features
 
 - **Project Showcase:** Detailed case studies for key projects including Charity Water Landing Page, RapidCare AI, and Student Task Management.
 - **Skills Section:** Clearly categorized technical and soft skills.
@@ -30,18 +30,18 @@ A responsive, high-impact portfolio website designed to showcase my software eng
 **Deployment:**
 - Vercel / Netlify (Recommended)
 
-## 🧠 Challenges
+##  Challenges
 
 One challenge was creating a cohesive, premium design system without relying on heavy CSS frameworks like Tailwind or Bootstrap. I solved this by establishing a robust `index.css` with CSS variables for colors, typography, and spacing, ensuring consistent styling and easier maintainability across all React components.
 
-## 💡 What I Learned
+##  What I Learned
 
 Through building this portfolio, I improved my understanding of:
 - Component-based architecture in React.
 - Implementing responsive, modern UI layouts using CSS Flexbox and Grid.
 - Structuring an end-to-end frontend project for optimal performance and maintainability.
 
-## ⚙️ Installation
+##  Installation
 
 To run this project locally:
 
@@ -60,7 +60,7 @@ To run this project locally:
    npm run dev
    ```
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Integrate a headless CMS to easily update projects without modifying source code.
 - Add a dynamic light/dark mode toggle.
