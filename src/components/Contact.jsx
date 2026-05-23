@@ -1,4 +1,4 @@
-import { Mail, MapPin, Code, User, Video } from 'lucide-react';
+import { Mail, MapPin, Code, User, Video, Phone } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
@@ -16,7 +16,11 @@ const Contact = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <Mail className="contact-icon" />
-                <span>savon.dugger@example.com</span> {/* Placeholder email */}
+                <span>savondugger@gmail.com</span>
+              </div>
+              <div className="contact-item">
+                <Phone className="contact-icon" />
+                <span>315-898-3415</span>
               </div>
               <div className="contact-item">
                 <MapPin className="contact-icon" />
