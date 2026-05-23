@@ -1,16 +1,69 @@
-# React + Vite
+# Savon Dugger - Professional Software Engineering Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, high-impact portfolio website designed to showcase my software engineering projects, technical skills, and professional readiness to prospective employers and recruiters.
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*(Replace with actual screenshot of your portfolio homepage)*
+![Portfolio Homepage](./public/portfolio-screenshot.png)
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[View Live Portfolio Here](https://your-portfolio-link.vercel.app) *(Update with your actual deployment link)*
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Project Showcase:** Detailed case studies for key projects including Charity Water Landing Page, RapidCare AI, and Student Task Management.
+- **Skills Section:** Clearly categorized technical and soft skills.
+- **Responsive Design:** Mobile-first approach ensuring the portfolio looks premium on all devices.
+- **Contact Form:** Integrated contact section for recruiters to reach out directly.
+- **Modern UI/UX:** Clean, dark-mode aesthetic with subtle animations to engage users.
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React (with Vite)
+- JavaScript (ES6+)
+- HTML5
+- CSS3 (Vanilla)
+- Lucide React (Icons)
+
+**Deployment:**
+- Vercel / Netlify (Recommended)
+
+## 🧠 Challenges
+
+One challenge was creating a cohesive, premium design system without relying on heavy CSS frameworks like Tailwind or Bootstrap. I solved this by establishing a robust `index.css` with CSS variables for colors, typography, and spacing, ensuring consistent styling and easier maintainability across all React components.
+
+## 💡 What I Learned
+
+Through building this portfolio, I improved my understanding of:
+- Component-based architecture in React.
+- Implementing responsive, modern UI layouts using CSS Flexbox and Grid.
+- Structuring an end-to-end frontend project for optimal performance and maintainability.
+
+## ⚙️ Installation
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Grasaia/Savon-portfolio.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🔮 Future Improvements
+
+- Integrate a headless CMS to easily update projects without modifying source code.
+- Add a dynamic light/dark mode toggle.
+- Create a dedicated blog section to share technical insights.
+- Connect the contact form to a backend service (e.g., EmailJS) for live message routing.
