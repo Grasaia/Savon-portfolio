@@ -4,8 +4,7 @@ A responsive, high-impact portfolio website designed to showcase my software eng
 
 ## 📸 Screenshots
 
-*(Replace with actual screenshot of your portfolio homepage)*
-![Portfolio Homepage](./public/portfolio-screenshot.png)
+![Portfolio Homepage](./public/savon-portfolio.png)
 
 ## 🚀 Live Demo
 
