@@ -107,6 +107,18 @@ ul {
   background: rgba(59, 130, 246, 0.1);
 }
 
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  transform: translateY(-2px);
+}
+
 /* Layout Utilities */
 .flex { display: flex; }
 .flex-col { flex-direction: column; }
@@ -115,8 +127,12 @@ ul {
 .justify-between { justify-content: space-between; }
 .gap-1 { gap: 0.25rem; }
 .gap-2 { gap: 0.5rem; }
+.gap-3 { gap: 0.75rem; }
 .gap-4 { gap: 1rem; }
 .gap-8 { gap: 2rem; }
+.mt-4 { margin-top: 1rem; }
+.mt-8 { margin-top: 2rem; }
+
 
 /* Responsive Grid */
 .grid { display: grid; }

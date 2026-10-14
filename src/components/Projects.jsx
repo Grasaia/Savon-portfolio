@@ -1,4 +1,4 @@
-import { ExternalLink, Code, Video } from 'lucide-react';
+import { ExternalLink, Code, Video, Code2 } from 'lucide-react';
 import './Projects.css';
 
 const Projects = () => {
@@ -76,6 +76,32 @@ const Projects = () => {
                     <li key={i} className="project-tech-item">{tech}</li>
                   ))}
                 </ul>
+
+                {/* Visible CTA buttons — always shown, not just on hover */}
+                <div className="project-cta-links flex gap-3 mt-4">
+                  {project.demoLink !== '#' && (
+                    <a
+                      href={project.demoLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="project-cta-btn project-cta-demo flex items-center gap-2"
+                    >
+                      {project.demoLink.includes('youtube.com') ? <Video size={16} /> : <ExternalLink size={16} />}
+                      {project.demoLink.includes('youtube.com') ? 'Watch Demo' : 'Live Demo'}
+                    </a>
+                  )}
+                  {project.githubLink !== '#' && (
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="project-cta-btn project-cta-github flex items-center gap-2"
+                    >
+                      <Code2 size={16} />
+                      GitHub
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}

@@ -1,4 +1,4 @@
-import { ArrowRight, Code, User } from 'lucide-react';
+import { ArrowRight, Download, Code, User } from 'lucide-react';
 import './Hero.css';
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
           <h2 className="hero-title text-gradient">I build full-stack experiences.</h2>
           
           <p className="hero-description">
-            I'm a fourth-year Info Tech & Management Major with a passion for software engineering. 
+            I'm a fourth-year Info Tech &amp; Management Major with a passion for software engineering. 
             I specialize in building (and occasionally designing) exceptional digital experiences 
             that solve real-world problems.
           </p>
@@ -19,6 +19,13 @@ const Hero = () => {
           <div className="hero-cta flex gap-4 mt-8">
             <a href="#projects" className="btn btn-primary flex items-center gap-2">
               View My Work <ArrowRight size={18} />
+            </a>
+            <a
+              href="/Savon Dugger - NEW July 2026 (1).pdf"
+              download="Savon_Dugger_Resume.pdf"
+              className="btn btn-secondary flex items-center gap-2"
+            >
+              Résumé <Download size={18} />
             </a>
             <div className="social-links flex items-center gap-4 ml-4">
               <a href="https://github.com/Grasaia" target="_blank" rel="noopener noreferrer" className="social-icon">

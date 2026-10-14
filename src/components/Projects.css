@@ -117,3 +117,41 @@
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
 }
+
+/* Visible CTA buttons below each card */
+.project-cta-links {
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+.project-cta-btn {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.project-cta-demo {
+  background: var(--accent-gradient);
+  color: white;
+}
+
+.project-cta-demo:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.project-cta-github {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.project-cta-github:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  transform: translateY(-1px);
+}
